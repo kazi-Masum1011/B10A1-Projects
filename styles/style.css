@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/*  */
+.banner-section{
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 28px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+.banner-ditels h1{
+    margin: 32px 0 24px 0;
+    font-size: 48px;
+    line-height: 68px;
+    font-weight: 1200;
+    font-family: "Azeret Mono", monospace;
+}
+.banner-ditels button{
+    background-color: black;
+    color: white;
+    padding: 21px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+/* developent start */
+.development-continer{
+    margin:48px 152px 90px 148px;
+    background-color:rgba(13, 19, 33, 0.02);
+    padding-bottom: 80px;
+}
+.development-detiles-header{
+    margin: 23px 144px 0 144px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 48px;
+    font-family: "Azeret Mono", monospace;
+}
+.development-detiles-header h1{
+    font-size: 32px;
+    font-weight: 1200;
+}
+.development-detiles-header h2 {
+    font-weight: 400;
+    font-size: 16px;
+}
+.development-detiles{
+    margin: 0 97px;
+}
+.development-detiles-child{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 16px 0 32px 0;
+}
+.development-detile-father{
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+.development-detile-mother{
+    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    border-radius: 15px;
+}
+.development-detiles-child{
+    padding: 48px;
+    font-family: "Azeret Mono", monospace;
+}
+.development-detiles-child h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.development-detiles-child p{
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(13, 19, 33, 0.651);
+}
+.development-detiles-child button{
+    border: 1px solid black;
+    padding: 12px 20px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 0.479)
+}
+/* video section */
+.video-continer{
+    margin: 0 152px 0 148px;
+    /* margin-bottom: 148px; */
+}
+.video-continer-child{
+    text-align: center;
+}
+.video-continer-child h1{
+    font-weight: 600;
+    font-size: 32px;
+    font-family: "Azeret Mono", monospace;
+}
+.video-continer-child p{
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.555);
+    line-height: 26px;
+}
+
+.video-continer-child iframe{
+    width: 97%;
+    height: 615px;
+    border-radius: 28px;
+    padding: 15px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    margin-top: 48px;
+    margin-bottom: 151px;
+}
+/* end of the video section */
+/* stard of the target section */
+.target{
+    margin: 0 150px;
+}
+.target-continer-child{
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+    margin-bottom: 48px;
+}
+.target-continer-childs h1{
+    font-size: 32px;
+    font-weight: 1200;
+}
+.target-continer-childs p{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 0.623);
+    line-height: 26px;
+    padding: 8px 0 24px 0;
+}
+.target-continer-childs{
+    display: flex;
+}
+.target-continer-childs button{
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.target-continer-child-cards{
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 10px;
+}
+.target-continer-child-cardss{
+    background-color:rgba(0, 76, 232, 0.05) ;
+    margin: 0 24px;
+    border-radius: 10px;
+}
+.target-continer-child-cardsss{
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 10px;
+}
+.boy{
+    padding: 40px;
+    font-family: "Azeret Mono", monospace;
+}
+.target-continer-childs{
+
+}
+.target-continers{
+    margin-top: 111px;
+    font-family: "Azeret Mono", monospace;
+}
+.target-continers h1{
+    font-size: 32px;
+    font-weight: 1200;
+}
+.target-continers p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.459);
+    font-weight: 400;
+}
+.chill{
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    margin-bottom: 24px;
+    padding-left: 24px;
+    border-radius: 16px;
+    align-items: center;
+    text-align: left;
+    padding: 40px;
+}
+.target-continer-childs-box{
+    margin-left: 24px;
+}
+.target-continer-childs-box h1{
+    font-size: 24px;
+    font-weight: 1200;
+}
+/* suport section */
+.suport{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.6)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.322)),
+    url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 150px;
+    margin-bottom: 64px;
+    border-radius: 16px;
+    color: white;
+    padding: 64px 48px;
+    text-align: center;
+}
+.suport-continer h1{
+    font-size: 32px;
+    font-weight: 600;
+    font-family:"Azeret Mono", monospace;
+}
+.suport-continer p{
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    opacity: 70%;
+}
+.sst{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.404);
+    padding: 19px 215px 19px 15px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+.sss{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.404);
+    padding: 19px 120px 19px 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* midea section */
+.media{
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+    align-items: center;
+}
+.media h1{
+    font-family:"Azeret Mono", monospace;
+    font-size: 20px;
+}
+#ddsst{
+    padding: 0 24px;
+}
